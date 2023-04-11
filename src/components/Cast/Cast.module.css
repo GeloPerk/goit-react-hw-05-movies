@@ -1,0 +1,19 @@
+.cast__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.cast__item {
+  flex-basis: calc(100% / 3 - 10px);
+}
+
+.cast__name {
+  font-weight: 800;
+}
+
+.cast__image {
+  display: block;
+  height: auto;
+}

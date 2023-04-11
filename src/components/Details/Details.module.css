@@ -1,0 +1,32 @@
+.details__wrapper {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.details__list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.details__item {
+  margin: 0 0.5rem;
+}
+
+.button {
+  background-color: #0070f3;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0062cc;
+}
